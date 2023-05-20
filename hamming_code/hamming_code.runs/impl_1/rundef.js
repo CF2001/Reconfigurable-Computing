@@ -25,7 +25,7 @@ eval( EAInclude(ISEJScriptLib) );
 // pre-commands:
 ISETouchFile( "init_design", "begin" );
 ISEStep( "vivado",
-         "-log hamming_encoder.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source hamming_encoder.tcl -notrace" );
+         "-log hamming_decoder.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source hamming_decoder.tcl -notrace" );
 
 
 

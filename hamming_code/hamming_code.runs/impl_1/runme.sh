@@ -42,6 +42,6 @@ EAStep()
 
 # pre-commands:
 /bin/touch .init_design.begin.rst
-EAStep vivado -log hamming_encoder.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source hamming_encoder.tcl -notrace
+EAStep vivado -log hamming_decoder.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source hamming_decoder.tcl -notrace
 
 

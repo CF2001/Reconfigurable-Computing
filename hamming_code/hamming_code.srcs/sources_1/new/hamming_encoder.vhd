@@ -6,25 +6,6 @@
 -- Description: Parallel implementation of the hamming encoder for [20,15]
 ----------------------------------------------------------------------------------
 
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
-
-entity hamming_encoder is
-    Port ( 
-        m        :  in std_logic_vector(14 downto 0);   -- initial message
-        codeWord :  out std_logic_vector(19 downto 0)   -- codeword (coded message)
-        );
-end hamming_encoder;
-
 ------------ Parity bits - Number of parity bits:
 -- 2^p >= (p + m) + 1 
 -- p = 5 => 32 >= 5 + 15 + 1
@@ -38,6 +19,16 @@ end hamming_encoder;
 ------------ Parity bits - parity bits values:
 -- even parity 
 
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity hamming_encoder is
+    Port ( 
+        m        :  in std_logic_vector(14 downto 0);   -- initial message
+        codeWord :  out std_logic_vector(19 downto 0)   -- codeword (coded message)
+        );
+end hamming_encoder;
+
 architecture Behavioral of hamming_encoder is
     signal p0   :  std_logic;  -- represents the parity bit at position 0
     signal p1   :  std_logic;  -- represents the parity bit at position 1
@@ -48,6 +39,8 @@ architecture Behavioral of hamming_encoder is
     signal s_codeword : std_logic_vector(19 downto 0);
 
 begin
+
+-- PARITY BIT GENERATOR
 p0 <= m(0) xor m(1) xor m(3) xor m(4) xor m(6) xor m(8) xor m(10) xor m(11) xor m(13);
 p1 <= m(0) xor m(2) xor m(3) xor m(5) xor m(6) xor m(9) xor m(10) xor m(12) xor m(13);
 p3 <= m(1) xor m(2) xor m(3) xor m(7) xor m(8) xor m(9) xor m(10) xor m(14);
@@ -63,7 +56,8 @@ s_codeword <= m(14) & m(13) & m(12) & m(11) &
             m(3) & m(2) & m(1) & 
             p3 & 
             m(0) &
-            p1 & p0; 
+            p1 & p0;
+             
 codeWord <= s_codeword;
 
 end Behavioral;

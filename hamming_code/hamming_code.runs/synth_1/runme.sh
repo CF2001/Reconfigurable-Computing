@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log hamming_encoder.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source hamming_encoder.tcl
+EAStep vivado -log hamming_decoder.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source hamming_decoder.tcl

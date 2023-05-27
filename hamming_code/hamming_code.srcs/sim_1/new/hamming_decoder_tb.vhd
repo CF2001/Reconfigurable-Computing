@@ -33,10 +33,11 @@ begin
                                      
    comb_process: process
    begin
-         codeWord <= "11011101110110000101";
+         codeWord <= "11101100001001100110"; -- valido
         wait for 10 ns;
-         codeWord <= "11011101110110000101";
+         codeWord <= "10101100001001100110"; -- 1 erro (tem de corrigir)
         wait for 10 ns;
+        codeWord <= "10101101001001100110"; -- 2 error - invalido
    end process;
     
 end Behavioral;

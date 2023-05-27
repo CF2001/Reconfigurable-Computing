@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="61" Path="C:/Users/carlo/CR/Reconfigurable-Computing/hamming_code/hamming_code.xpr">
+<Project Version="7" Minor="61" Path="C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/Reconfigurable-Computing/hamming_code/hamming_code.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="d20f4ded1e964c20b1d428b808c2dfbd"/>

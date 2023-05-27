@@ -1,25 +1,12 @@
 ----------------------------------------------------------------------------------
 -- Create Date: 12.05.2023 20:11:39
--- Design Name: 
+-- Design Name: hamming_encoder
 -- Module Name: hamming_encoder_tb - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
+-- Project Name: hmming_code
 ----------------------------------------------------------------------------------
-
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
 
 entity hamming_encoder_tb is
 end hamming_encoder_tb;

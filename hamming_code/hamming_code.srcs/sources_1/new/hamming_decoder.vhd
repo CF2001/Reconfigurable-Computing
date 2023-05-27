@@ -46,7 +46,7 @@ p7 <= codeWord(7);
 p15 <= codeWord(15);
 
 -- CHECKER BIT GENERATOR
-c0 <= p0 xor codeWord(2) xor codeWord(5) xor codeWord(6) xor codeWord(8) xor 
+c0 <= p0 xor codeWord(2) xor codeWord(4) xor codeWord(6) xor codeWord(8) xor 
     codeWord(10) xor codeWord(12) xor codeWord(14) xor codeWord(16) xor codeWord(18);
 c1 <= p1 xor codeWord(2) xor codeWord(5) xor codeWord(6) xor codeWord(9) xor 
     codeWord(10) xor codeWord(13) xor codeWord(14) xor codeWord(17) xor codeWord(18);

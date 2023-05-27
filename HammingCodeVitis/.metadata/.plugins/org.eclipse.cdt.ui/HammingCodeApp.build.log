@@ -1,0 +1,25 @@
+17:47:20 **** Incremental Build of configuration Debug for project HammingCodeApp ****
+make all 
+'Building file: ../src/ErrorDetectionCorrection.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ErrorDetectionCorrection.o" -IC:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/ErrorDetectionCorrection.d" -MT"src/ErrorDetectionCorrection.o" -o "src/ErrorDetectionCorrection.o" "../src/ErrorDetectionCorrection.c"
+../src/ErrorDetectionCorrection.c: In function 'CheckEncoderHammingCode':
+../src/ErrorDetectionCorrection.c:106:23: warning: 'pDst' may be used uninitialized [-Wmaybe-uninitialized]
+  106 |                 *pDst = 0;
+      |                 ~~~~~~^~~
+'Finished building: ../src/ErrorDetectionCorrection.c'
+' '
+'Building target: HammingCodeApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "HammingCodeApp.elf"  ./src/ErrorDetectionCorrection.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: HammingCodeApp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size HammingCodeApp.elf  |tee "HammingCodeApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  17572	   1392	   3172	  22136	   5678	HammingCodeApp.elf
+'Finished building: HammingCodeApp.elf.size'
+' '
+
+17:47:21 Build Finished (took 1s.148ms)
+

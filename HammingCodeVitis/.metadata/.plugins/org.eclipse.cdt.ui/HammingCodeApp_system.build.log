@@ -1,0 +1,6 @@
+17:43:38 **** Build of configuration Debug for project HammingCodeApp_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+17:43:38 Build Finished (took 202ms)
+

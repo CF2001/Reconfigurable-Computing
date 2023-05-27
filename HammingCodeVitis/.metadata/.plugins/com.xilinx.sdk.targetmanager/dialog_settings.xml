@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="HammingCodeApp_system-bitFile" value="${project_loc:HammingCodeApp}/_ide/bitstream/mb_design_wrapper.bit"/>
+	<item key="HammingCodeApp_system-bmmFile" value="${project_loc:HammingCodeApp}/_ide/bitstream/mb_design_wrapper.mmi"/>
+	<item key="HammingCodeApp_system-target" value="Local"/>
+	<item key="HammingCodeApp_system-device" value="Auto Detect"/>
+	<item key="HammingCodeApp_system-partial_bit" value="false"/>
+	<item key="HammingCodeApp_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="HammingCodeApp_system"/>
+	<item key="HammingCodeApp_system-microblaze_0-initElf" value="bootloop"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Nexys4 210274505168A&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Nexys4-210274505168A-13631093-0&quot;}}]}"/>
+</section>

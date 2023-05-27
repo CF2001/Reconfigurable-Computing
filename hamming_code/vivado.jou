@@ -12,3 +12,7 @@
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/Reconfigurable-Computing/hamming_code/hamming_code.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1

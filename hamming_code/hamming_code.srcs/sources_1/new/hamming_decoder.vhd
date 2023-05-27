@@ -76,7 +76,14 @@ begin
         m_valid <= '1' & s_m;
     else
         if (s_overallParity = '1') then     -- A single bit error occurred that can be detected and corrected. 
-            m_valid <= (others => '0');
+            case c is
+                when "00001" => m_valid <= '1' & (s_m xor "00000000000000010");
+                when "00010" => m_valid <= '1' & (s_m xor "00000000000000100");
+                when "00100" => m_valid <= '1' & (s_m xor "00000000000001000");
+                when "01000" => m_valid <= '1' & (s_m xor "00000000000010000");
+                when "10000" => m_valid <= '1' & (s_m xor "00000000000100000");
+                when others => m_valid <= (others => '0');
+            end case;
         elsif (s_overallParity = '0') then  -- Double bit error occurred that cannot be corrected, so the codeword is taken as invalid information.
             m_valid <= '0' & s_m;
         end if;

@@ -2,12 +2,12 @@
 # Vivado v2022.2 (64-bit)
 # SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
 # IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
-# Start of session at: Sat May 27 20:58:57 2023
-# Process ID: 14180
-# Current directory: C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/Reconfigurable-Computing/hamming_code/hamming_code.runs/synth_1
+# Start of session at: Sat May 27 21:45:04 2023
+# Process ID: 32436
+# Current directory: C:/Users/carlo/CR/Reconfigurable-Computing/hamming_code/hamming_code.runs/synth_1
 # Command line: vivado.exe -log hamming_decoder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source hamming_decoder.tcl
-# Log file: C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/Reconfigurable-Computing/hamming_code/hamming_code.runs/synth_1/hamming_decoder.vds
-# Journal file: C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/Reconfigurable-Computing/hamming_code/hamming_code.runs/synth_1\vivado.jou
-# Running On: LAPTOP-4HV6V7EN, OS: Windows, CPU Frequency: 1992 MHz, CPU Physical cores: 4, Host memory: 16992 MB
+# Log file: C:/Users/carlo/CR/Reconfigurable-Computing/hamming_code/hamming_code.runs/synth_1/hamming_decoder.vds
+# Journal file: C:/Users/carlo/CR/Reconfigurable-Computing/hamming_code/hamming_code.runs/synth_1\vivado.jou
+# Running On: LAPTOP-UVUIF798, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 2, Host memory: 12764 MB
 #-----------------------------------------------------------
 source hamming_decoder.tcl -notrace

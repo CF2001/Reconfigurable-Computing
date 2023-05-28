@@ -24,7 +24,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity hamming_decoder is
     Port ( 
         codeWord  : in std_logic_vector(19 downto 0);
-        m_valid   : out std_logic_vector(15 downto 0) -- 15(validation bit) + 14to0(data)
+        m_valid   : out std_logic_vector(16 downto 0) -- 00(valid)/01(single-error)/10(more than one error) + 14to0(data)
     );
 end hamming_decoder;
 
@@ -72,20 +72,30 @@ s_overallParity <= codeWord(19) xor codeWord(18) xor codeWord(17) xor codeWord(1
 -- Check message and correct and detect error 
 process(c, s_overallParity, s_m)
 begin
-    if (c = "0000") then -- There is no error in the transmitted codeword, so the codeword is taken as valid information. 
-        m_valid <= '1' & s_m;
+    if (c = "00000") then -- There is no error in the transmitted codeword, so the codeword is taken as valid information. 
+        m_valid <= "00" & s_m;   
     else
         if (s_overallParity = '1') then     -- A single bit error occurred that can be detected and corrected. 
-            case c is
-                when "00001" => m_valid <= '1' & (s_m xor "000000000000010");
-                when "00010" => m_valid <= '1' & (s_m xor "000000000000100");
-                when "00100" => m_valid <= '1' & (s_m xor "000000000001000");
-                when "01000" => m_valid <= '1' & (s_m xor "000000000010000");
-                when "10000" => m_valid <= '1' & (s_m xor "000000000100000");
-                when others => m_valid <= (others => '0');
+           case c is
+                when "00011" => m_valid <= "01" & (s_m xor  "000000000000001");  -- correct bit m0
+                when "00101" => m_valid <= "01" & (s_m xor  "000000000000010");  -- correct bit m1
+                when "00110" => m_valid <= "01" & (s_m xor  "000000000000100");  -- correct bit m2
+                when "00111" => m_valid <= "01" & (s_m xor  "000000000001000");  -- correct bit m3
+                when "01001" => m_valid <= "01" & (s_m xor  "000000000010000");  -- correct bit m4
+                when "01010" => m_valid <= "01" & (s_m xor  "000000000100000");  -- correct bit m5
+			    when "01011" => m_valid <= "01" & (s_m xor  "000000001000000");  -- correct bit m6
+			    when "01100" => m_valid <= "01" & (s_m xor  "000000010000000");  -- correct bit m7
+			    when "01101" => m_valid <= "01" & (s_m xor  "000000100000000");  -- correct bit m8
+			    when "01110" => m_valid <= "01" & (s_m xor  "000001000000000");  -- correct bit m9
+			    when "01111" => m_valid <= "01" & (s_m xor  "000010000000000");  -- correct bit m10
+			    when "10001" => m_valid <= "01" & (s_m xor  "000100000000000");  -- correct bit m11
+			    when "10010" => m_valid <= "01" & (s_m xor  "001000000000000");  -- correct bit m12
+			    when "10011" => m_valid <= "01" & (s_m xor  "010000000000000");  -- correct bit m13
+			    when "10100" => m_valid <= "01" & (s_m xor  "100000000000000");  -- correct bit m14
+			    when others  => m_valid <= (others => '0');
             end case;
         elsif (s_overallParity = '0') then  -- Double bit error occurred that cannot be corrected, so the codeword is taken as invalid information.
-            m_valid <= '0' & s_m;
+            m_valid <= "10" & s_m;
         end if;
     end if;
 end process;

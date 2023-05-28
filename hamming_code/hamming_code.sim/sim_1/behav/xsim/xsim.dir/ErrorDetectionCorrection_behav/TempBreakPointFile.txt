@@ -1,0 +1,2 @@
+Breakpoint File Version 1.0
+53,true,"C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/hamming_code/hamming_code.srcs/sim_1/new/ErrorDetectionCorrection.vhd"

@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/carlo/CR/Reconfigurable-Computing/hamming_code/hamming_code.runs/synth_1'
+HD_PWD='C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/hamming_code/hamming_code.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

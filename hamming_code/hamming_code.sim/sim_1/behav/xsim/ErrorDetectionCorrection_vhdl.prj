@@ -1,7 +1,8 @@
 # compile vhdl design source files
 vhdl xil_defaultlib  \
 "../../../../hamming_code.srcs/sources_1/new/hamming_decoder.vhd" \
-"../../../../hamming_code.srcs/sim_1/new/hamming_decoder_tb.vhd" \
+"../../../../hamming_code.srcs/sources_1/new/hamming_encoder.vhd" \
+"../../../../hamming_code.srcs/sim_1/new/ErrorDetectionCorrection.vhd" \
 
 # Do not sort compile order
 nosort

@@ -21,23 +21,24 @@ architecture Behavioral of hamming_decoder_tb is
     component hamming_decoder
         port(
             codeWord :  in std_logic_vector(19 downto 0);   -- codeword (coded message)
-            m_valid :  out std_logic_vector(15 downto 0)   -- validation + message 
-        );
+            m_valid :  out std_logic_vector(16 downto 0));   -- validation + message 
     end component;
     
     signal codeword : std_logic_vector(19 downto 0);
-    signal s_mValid : std_logic_vector(15 downto 0);
+    signal s_mValid : std_logic_vector(16 downto 0);
 begin
     uut : hamming_decoder PORT MAP ( codeWord => codeword,
-                                     m_valid => s_mValid);
+                                     m_valid => s_mValid
+                                     );
                                      
    comb_process: process
    begin
          codeWord <= "11101100001001100110"; -- valido
         wait for 10 ns;
-         codeWord <= "10101100001001100110"; -- 1 erro (tem de corrigir)
+         codeWord <= "10101100001001100110"; -- 1 erro
         wait for 10 ns;
-        codeWord <= "10101101001001100110"; -- 2 error - invalido
+         codeWord <= "10101101001001100110"; -- 2 error 
+        wait for 10 ns;
    end process;
     
 end Behavioral;

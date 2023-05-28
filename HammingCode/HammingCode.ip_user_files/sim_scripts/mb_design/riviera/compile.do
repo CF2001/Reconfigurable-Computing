@@ -187,6 +187,11 @@ vcom -work xil_defaultlib -93  \
 "../../../bd/mb_design/ipshared/f81c/src/hamming_encoder.vhd" \
 "../../../bd/mb_design/ipshared/f81c/hdl/EncHammingCode_Cop_v1_0.vhd" \
 "../../../bd/mb_design/ip/mb_design_EncHammingCode_Cop_0_0/sim/mb_design_EncHammingCode_Cop_0_0.vhd" \
+"../../../bd/mb_design/ipshared/9a59/hdl/DecHammingCode_v1_0_M00_AXIS.vhd" \
+"../../../bd/mb_design/ipshared/9a59/hdl/DecHammingCode_v1_0_S00_AXIS.vhd" \
+"../../../bd/mb_design/ipshared/9a59/src/hamming_decoder.vhd" \
+"../../../bd/mb_design/ipshared/9a59/hdl/DecHammingCode_v1_0.vhd" \
+"../../../bd/mb_design/ip/mb_design_DecHammingCode_0_0/sim/mb_design_DecHammingCode_0_0.vhd" \
 "../../../bd/mb_design/sim/mb_design.vhd" \
 
 vlog -work xil_defaultlib \

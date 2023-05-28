@@ -1396,3 +1396,793 @@ TRACE::2023-05-27.17:43:31::SCWMssOS::Checking the sw design at  C:/Users/35191/
 TRACE::2023-05-27.17:43:31::SCWMssOS::DEBUG:  swdes dump  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
 
 TRACE::2023-05-27.17:43:31::SCWMssOS::Sw design exists and opened at  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:06:25::SCWPlatform::Trying to open the hw design at C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:25::SCWPlatform::DSA given C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:25::SCWPlatform::DSA absoulate path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:25::SCWPlatform::DSA directory C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw
+TRACE::2023-05-28.18:06:25::SCWPlatform:: Platform Path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:25::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2023-05-28.18:06:25::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-05-28.18:06:26::SCWPlatform::Opened new HwDB with name mb_design_wrapper
+TRACE::2023-05-28.18:06:26::SCWReader::Active system found as  mb_design_wrapper
+TRACE::2023-05-28.18:06:26::SCWReader::Handling sysconfig mb_design_wrapper
+TRACE::2023-05-28.18:06:26::SCWDomain::checking for install qemu data   : 
+TRACE::2023-05-28.18:06:26::SCWPlatform::Trying to open the hw design at C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:26::SCWPlatform::DSA given C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:26::SCWPlatform::DSA absoulate path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:26::SCWPlatform::DSA directory C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw
+TRACE::2023-05-28.18:06:26::SCWPlatform:: Platform Path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:26::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2023-05-28.18:06:26::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2023-05-28.18:06:26::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2023-05-28.18:06:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-28.18:06:26::SCWPlatform::Trying to open the hw design at C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:26::SCWPlatform::DSA given C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:26::SCWPlatform::DSA absoulate path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:26::SCWPlatform::DSA directory C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw
+TRACE::2023-05-28.18:06:26::SCWPlatform:: Platform Path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:26::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2023-05-28.18:06:26::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2023-05-28.18:06:26::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2023-05-28.18:06:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-28.18:06:26::SCWPlatform::Trying to open the hw design at C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:26::SCWPlatform::DSA given C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:26::SCWPlatform::DSA absoulate path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:26::SCWPlatform::DSA directory C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw
+TRACE::2023-05-28.18:06:26::SCWPlatform:: Platform Path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:26::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2023-05-28.18:06:26::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2023-05-28.18:06:26::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2023-05-28.18:06:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-28.18:06:26::SCWPlatform::Trying to open the hw design at C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:26::SCWPlatform::DSA given C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:26::SCWPlatform::DSA absoulate path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:26::SCWPlatform::DSA directory C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw
+TRACE::2023-05-28.18:06:26::SCWPlatform:: Platform Path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:26::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2023-05-28.18:06:26::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2023-05-28.18:06:26::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2023-05-28.18:06:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-28.18:06:26::SCWMssOS::Checking the sw design at  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:06:26::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-05-28.18:06:26::SCWMssOS::No sw design opened at  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:06:26::SCWMssOS::mss exists loading the mss file  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:06:27::SCWMssOS::Opened the sw design from mss  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:06:27::SCWMssOS::Adding the swdes entry C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-05-28.18:06:27::SCWMssOS::updating the scw layer about changes
+TRACE::2023-05-28.18:06:27::SCWMssOS::Opened the sw design.  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:06:27::SCWMssOS::Saving the mss changes C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:06:27::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-28.18:06:27::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-28.18:06:27::SCWMssOS::Commit changes completed.
+TRACE::2023-05-28.18:06:27::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-05-28.18:06:27::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-05-28.18:06:27::SCWPlatform::Trying to open the hw design at C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:27::SCWPlatform::DSA given C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:27::SCWPlatform::DSA absoulate path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:27::SCWPlatform::DSA directory C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw
+TRACE::2023-05-28.18:06:27::SCWPlatform:: Platform Path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:27::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2023-05-28.18:06:27::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2023-05-28.18:06:27::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2023-05-28.18:06:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-28.18:06:27::SCWMssOS::Checking the sw design at  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:06:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-28.18:06:27::SCWMssOS::Sw design exists and opened at  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:06:27::SCWReader::No isolation master present  
+TRACE::2023-05-28.18:06:30::SCWPlatform::DSA given C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/tempdsa/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:30::SCWPlatform::DSA absoulate path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/tempdsa/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:30::SCWPlatform:: Platform location is C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/tempdsa
+TRACE::2023-05-28.18:06:30::SCWPlatform:: Platform Path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/tempdsa/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:30::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2023-05-28.18:06:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-28.18:06:30::SCWMssOS::Doing hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2023-05-28.18:06:30::SCWPlatform::Trying to open the hw design at C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:30::SCWPlatform::DSA given C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:31::SCWPlatform::DSA absoulate path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:31::SCWPlatform::DSA directory C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw
+TRACE::2023-05-28.18:06:31::SCWPlatform:: Platform Path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:31::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2023-05-28.18:06:31::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2023-05-28.18:06:31::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2023-05-28.18:06:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-28.18:06:31::SCWPlatform::Trying to open the hw design at C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:31::SCWPlatform::DSA given C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:31::SCWPlatform::DSA absoulate path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:31::SCWPlatform::DSA directory C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw
+TRACE::2023-05-28.18:06:31::SCWPlatform:: Platform Path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:31::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2023-05-28.18:06:31::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2023-05-28.18:06:31::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2023-05-28.18:06:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-28.18:06:31::SCWMssOS::Checking the sw design at  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:06:31::SCWMssOS::DEBUG:  swdes dump  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-28.18:06:31::SCWMssOS::Sw design exists and opened at  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:06:31::SCWPlatform::Trying to open the hw design at C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/tempdsa/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:31::SCWPlatform::DSA given C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/tempdsa/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:31::SCWPlatform::DSA absoulate path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/tempdsa/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:31::SCWPlatform::DSA directory C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/tempdsa
+TRACE::2023-05-28.18:06:31::SCWPlatform:: Platform Path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/tempdsa/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:31::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2023-05-28.18:06:31::SCWPlatform::update - Opened existing hwdb mb_design_wrapper_0
+TRACE::2023-05-28.18:06:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-28.18:06:31::SCWMssOS::Saving the mss changes C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:06:31::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-28.18:06:31::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-28.18:06:31::SCWMssOS::Commit changes completed.
+TRACE::2023-05-28.18:06:31::SCWMssOS::Completed hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2023-05-28.18:06:31::SCWMssOS::Removing the swdes entry for  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:06:31::SCWPlatform::Trying to open the hw design at C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:31::SCWPlatform::DSA given C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:31::SCWPlatform::DSA absoulate path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:31::SCWPlatform::DSA directory C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw
+TRACE::2023-05-28.18:06:31::SCWPlatform:: Platform Path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:31::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2023-05-28.18:06:31::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-05-28.18:06:31::SCWPlatform::Opened new HwDB with name mb_design_wrapper_1
+TRACE::2023-05-28.18:06:31::SCWMssOS::Saving the mss changes C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:06:31::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-05-28.18:06:31::SCWMssOS::Writing the mss file completed C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:06:31::SCWMssOS::Commit changes completed.
+TRACE::2023-05-28.18:06:31::SCWPlatform::Trying to open the hw design at C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:31::SCWPlatform::DSA given C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:31::SCWPlatform::DSA absoulate path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:31::SCWPlatform::DSA directory C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw
+TRACE::2023-05-28.18:06:31::SCWPlatform:: Platform Path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:06:31::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2023-05-28.18:06:31::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_1
+TRACE::2023-05-28.18:06:31::SCWPlatform::Opened existing hwdb mb_design_wrapper_1
+TRACE::2023-05-28.18:06:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-28.18:06:31::SCWMssOS::Checking the sw design at  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:06:31::SCWMssOS::DEBUG:  swdes dump  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-28.18:06:31::SCWMssOS::Sw design exists and opened at  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:06:31::SCWWriter::formatted JSON is {
+	"platformName":	"mb_design_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_design_wrapper",
+	"platHandOff":	"C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCode/mb_design_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_design_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_design_wrapper",
+	"systems":	[{
+			"systemName":	"mb_design_wrapper",
+			"systemDesc":	"mb_design_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_design_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"a09e6b761cd6de147e2e2acbdaca03d11",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-05-28.18:06:47::SCWMssOS::cleaning the bsp 
+TRACE::2023-05-28.18:06:47::SCWMssOS::System Command Ran  C: & cd  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2023-05-28.18:06:48::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s clean 
+
+TRACE::2023-05-28.18:06:48::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s clean 
+
+TRACE::2023-05-28.18:06:49::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s clean 
+
+TRACE::2023-05-28.18:06:49::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s clean 
+
+TRACE::2023-05-28.18:06:49::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s clean 
+
+TRACE::2023-05-28.18:06:51::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_9/src -s clean 
+
+TRACE::2023-05-28.18:06:52::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s clean 
+
+TRACE::2023-05-28.18:06:52::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+TRACE::2023-05-28.18:07:05::SCWMssOS::cleaning the bsp 
+TRACE::2023-05-28.18:07:05::SCWMssOS::System Command Ran  C: & cd  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2023-05-28.18:07:05::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s clean 
+
+TRACE::2023-05-28.18:07:05::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s clean 
+
+TRACE::2023-05-28.18:07:05::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s clean 
+
+TRACE::2023-05-28.18:07:05::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s clean 
+
+TRACE::2023-05-28.18:07:06::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s clean 
+
+TRACE::2023-05-28.18:07:06::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_9/src -s clean 
+
+TRACE::2023-05-28.18:07:06::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s clean 
+
+TRACE::2023-05-28.18:07:06::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+TRACE::2023-05-28.18:07:40::SCWMssOS::cleaning the bsp 
+TRACE::2023-05-28.18:07:40::SCWMssOS::System Command Ran  C: & cd  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2023-05-28.18:07:40::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s clean 
+
+TRACE::2023-05-28.18:07:40::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s clean 
+
+TRACE::2023-05-28.18:07:41::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s clean 
+
+TRACE::2023-05-28.18:07:41::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s clean 
+
+TRACE::2023-05-28.18:07:41::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s clean 
+
+TRACE::2023-05-28.18:07:41::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_9/src -s clean 
+
+TRACE::2023-05-28.18:07:42::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s clean 
+
+TRACE::2023-05-28.18:07:42::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2023-05-28.18:07:55::SCWPlatform::Started generating the artifacts platform mb_design_wrapper
+TRACE::2023-05-28.18:07:55::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-05-28.18:07:55::SCWPlatform::Started generating the artifacts for system configuration mb_design_wrapper
+LOG::2023-05-28.18:07:55::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2023-05-28.18:07:55::SCWSystem::Not a boot domain 
+LOG::2023-05-28.18:07:55::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2023-05-28.18:07:55::SCWDomain::Generating domain artifcats
+TRACE::2023-05-28.18:07:55::SCWMssOS::Generating standalone artifcats
+TRACE::2023-05-28.18:07:55::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-05-28.18:07:55::SCWPlatform::Trying to open the hw design at C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:07:55::SCWPlatform::DSA given C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:07:55::SCWPlatform::DSA absoulate path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:07:55::SCWPlatform::DSA directory C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw
+TRACE::2023-05-28.18:07:55::SCWPlatform:: Platform Path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:07:55::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2023-05-28.18:07:55::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_1
+TRACE::2023-05-28.18:07:55::SCWPlatform::Opened existing hwdb mb_design_wrapper_1
+TRACE::2023-05-28.18:07:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-28.18:07:55::SCWMssOS::Checking the sw design at  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:07:55::SCWMssOS::DEBUG:  swdes dump  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-28.18:07:55::SCWMssOS::Sw design exists and opened at  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:07:55::SCWMssOS::Completed writing the mss file at C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2023-05-28.18:07:55::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:07:56::SCWMssOS::bsp generated is stale removing and regenerating. 
+TRACE::2023-05-28.18:08:01::SCWMssOS::doing bsp build ... 
+TRACE::2023-05-28.18:08:01::SCWMssOS::System Command Ran  C: & cd  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2023-05-28.18:08:01::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2023-05-28.18:08:01::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2023-05-28.18:08:01::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2023-05-28.18:08:01::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2023-05-28.18:08:01::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-28.18:08:01::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-28.18:08:01::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:08:01::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2023-05-28.18:08:01::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-28.18:08:01::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-28.18:08:01::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:08:01::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-05-28.18:08:01::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-28.18:08:01::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-28.18:08:01::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:08:01::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2023-05-28.18:08:01::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-05-28.18:08:01::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2023-05-28.18:08:01::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:08:02::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2023-05-28.18:08:02::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-05-28.18:08:02::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2023-05-28.18:08:02::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:08:02::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_9/src"
+
+TRACE::2023-05-28.18:08:02::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2023-05-28.18:08:02::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2023-05-28.18:08:02::SCWMssOS::l -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:08:02::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-05-28.18:08:02::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2023-05-28.18:08:02::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2023-05-28.18:08:02::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:08:03::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2023-05-28.18:08:03::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-28.18:08:03::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-28.18:08:03::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:08:03::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2023-05-28.18:08:03::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-28.18:08:03::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-28.18:08:03::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:08:03::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-05-28.18:08:03::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-28.18:08:03::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-28.18:08:03::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:08:03::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2023-05-28.18:08:03::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2023-05-28.18:08:03::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2023-05-28.18:08:03::SCWMssOS::extra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:08:03::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2023-05-28.18:08:03::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2023-05-28.18:08:03::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2023-05-28.18:08:03::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:08:03::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_9/src"
+
+TRACE::2023-05-28.18:08:03::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2023-05-28.18:08:03::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2023-05-28.18:08:03::SCWMssOS::Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:08:04::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-05-28.18:08:04::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-05-28.18:08:04::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2023-05-28.18:08:04::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:08:08::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2023-05-28.18:08:09::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2023-05-28.18:08:09::SCWMssOS::make --no-print-directory archive
+
+TRACE::2023-05-28.18:08:09::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2023-05-28.18:08:09::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2023-05-28.18:08:09::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2023-05-28.18:08:09::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2023-05-28.18:08:09::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2023-05-28.18:08:09::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2023-05-28.18:08:09::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2023-05-28.18:08:09::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2023-05-28.18:08:09::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2023-05-28.18:08:09::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2023-05-28.18:08:09::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2023-05-28.18:08:09::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2023-05-28.18:08:09::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2023-05-28.18:08:09::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xgpio.o microblaze_0/lib/xgpio_extra.o microblaze_0/li
+TRACE::2023-05-28.18:08:09::SCWMssOS::b/xgpio_g.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xil
+TRACE::2023-05-28.18:08:09::SCWMssOS::_assert.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_me
+TRACE::2023-05-28.18:08:09::SCWMssOS::m.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/x
+TRACE::2023-05-28.18:08:09::SCWMssOS::il_testcache.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.
+TRACE::2023-05-28.18:08:09::SCWMssOS::o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microbla
+TRACE::2023-05-28.18:08:09::SCWMssOS::ze_0/lib/xintc_selftest.o microblaze_0/lib/xinterrupt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaz
+TRACE::2023-05-28.18:08:09::SCWMssOS::e_0/lib/xtmrctr.o microblaze_0/lib/xtmrctr_g.o microblaze_0/lib/xtmrctr_intr.o microblaze_0/lib/xtmrctr_l.o microblaze_0/lib/xt
+TRACE::2023-05-28.18:08:09::SCWMssOS::mrctr_options.o microblaze_0/lib/xtmrctr_selftest.o microblaze_0/lib/xtmrctr_sinit.o microblaze_0/lib/xtmrctr_stats.o microblaz
+TRACE::2023-05-28.18:08:09::SCWMssOS::e_0/lib/xuartlite.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_
+TRACE::2023-05-28.18:08:09::SCWMssOS::0/lib/xuartlite_selftest.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2023-05-28.18:08:09::SCWMssOS::'Finished building libraries'
+
+TRACE::2023-05-28.18:08:10::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-05-28.18:08:10::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-05-28.18:08:10::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2023-05-28.18:08:10::SCWSystem::Completed Processing the sysconfig mb_design_wrapper
+LOG::2023-05-28.18:08:10::SCWPlatform::Completed generating the artifacts for system configuration mb_design_wrapper
+TRACE::2023-05-28.18:08:10::SCWPlatform::Started preparing the platform 
+TRACE::2023-05-28.18:08:10::SCWSystem::Writing the bif file for system config mb_design_wrapper
+TRACE::2023-05-28.18:08:10::SCWSystem::dir created 
+TRACE::2023-05-28.18:08:10::SCWSystem::Writing the bif 
+TRACE::2023-05-28.18:08:10::SCWPlatform::Started writing the spfm file 
+TRACE::2023-05-28.18:08:10::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-05-28.18:08:10::SCWPlatform::Completed generating the platform
+TRACE::2023-05-28.18:08:10::SCWMssOS::Saving the mss changes C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:08:10::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-05-28.18:08:10::SCWMssOS::Writing the mss file completed C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:08:10::SCWMssOS::Commit changes completed.
+TRACE::2023-05-28.18:08:10::SCWPlatform::Trying to open the hw design at C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:08:10::SCWPlatform::DSA given C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:08:10::SCWPlatform::DSA absoulate path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:08:10::SCWPlatform::DSA directory C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw
+TRACE::2023-05-28.18:08:10::SCWPlatform:: Platform Path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:08:10::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2023-05-28.18:08:10::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_1
+TRACE::2023-05-28.18:08:10::SCWPlatform::Opened existing hwdb mb_design_wrapper_1
+TRACE::2023-05-28.18:08:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-28.18:08:10::SCWMssOS::Checking the sw design at  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:08:10::SCWMssOS::DEBUG:  swdes dump  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-28.18:08:10::SCWMssOS::Sw design exists and opened at  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:08:10::SCWWriter::formatted JSON is {
+	"platformName":	"mb_design_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_design_wrapper",
+	"platHandOff":	"C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCode/mb_design_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_design_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_design_wrapper",
+	"systems":	[{
+			"systemName":	"mb_design_wrapper",
+			"systemDesc":	"mb_design_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_design_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"a09e6b761cd6de147e2e2acbdaca03d1",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-05-28.18:08:10::SCWPlatform::updated the xpfm file.
+TRACE::2023-05-28.18:08:10::SCWPlatform::Trying to open the hw design at C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:08:10::SCWPlatform::DSA given C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:08:10::SCWPlatform::DSA absoulate path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:08:10::SCWPlatform::DSA directory C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw
+TRACE::2023-05-28.18:08:10::SCWPlatform:: Platform Path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:08:10::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2023-05-28.18:08:10::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_1
+TRACE::2023-05-28.18:08:10::SCWPlatform::Opened existing hwdb mb_design_wrapper_1
+TRACE::2023-05-28.18:08:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-28.18:08:10::SCWMssOS::Checking the sw design at  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:08:10::SCWMssOS::DEBUG:  swdes dump  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-28.18:08:10::SCWMssOS::Sw design exists and opened at  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:22:21::SCWMssOS::cleaning the bsp 
+TRACE::2023-05-28.18:22:21::SCWMssOS::System Command Ran  C: & cd  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2023-05-28.18:22:22::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s clean 
+
+TRACE::2023-05-28.18:22:22::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s clean 
+
+TRACE::2023-05-28.18:22:22::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s clean 
+
+TRACE::2023-05-28.18:22:22::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s clean 
+
+TRACE::2023-05-28.18:22:23::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s clean 
+
+TRACE::2023-05-28.18:22:24::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_9/src -s clean 
+
+TRACE::2023-05-28.18:22:24::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s clean 
+
+TRACE::2023-05-28.18:22:25::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+TRACE::2023-05-28.18:22:35::SCWMssOS::cleaning the bsp 
+TRACE::2023-05-28.18:22:35::SCWMssOS::System Command Ran  C: & cd  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2023-05-28.18:22:35::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s clean 
+
+TRACE::2023-05-28.18:22:36::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s clean 
+
+TRACE::2023-05-28.18:22:36::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s clean 
+
+TRACE::2023-05-28.18:22:36::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s clean 
+
+TRACE::2023-05-28.18:22:36::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s clean 
+
+TRACE::2023-05-28.18:22:37::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_9/src -s clean 
+
+TRACE::2023-05-28.18:22:37::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s clean 
+
+TRACE::2023-05-28.18:22:37::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2023-05-28.18:22:48::SCWPlatform::Started generating the artifacts platform mb_design_wrapper
+TRACE::2023-05-28.18:22:48::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-05-28.18:22:48::SCWPlatform::Started generating the artifacts for system configuration mb_design_wrapper
+LOG::2023-05-28.18:22:48::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2023-05-28.18:22:48::SCWSystem::Not a boot domain 
+LOG::2023-05-28.18:22:48::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2023-05-28.18:22:48::SCWDomain::Generating domain artifcats
+TRACE::2023-05-28.18:22:48::SCWMssOS::Generating standalone artifcats
+TRACE::2023-05-28.18:22:48::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-05-28.18:22:48::SCWPlatform::Trying to open the hw design at C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:22:48::SCWPlatform::DSA given C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:22:48::SCWPlatform::DSA absoulate path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:22:48::SCWPlatform::DSA directory C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw
+TRACE::2023-05-28.18:22:48::SCWPlatform:: Platform Path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:22:48::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2023-05-28.18:22:48::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_1
+TRACE::2023-05-28.18:22:48::SCWPlatform::Opened existing hwdb mb_design_wrapper_1
+TRACE::2023-05-28.18:22:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-28.18:22:48::SCWMssOS::Checking the sw design at  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:22:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-28.18:22:48::SCWMssOS::Sw design exists and opened at  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:22:48::SCWMssOS::Completed writing the mss file at C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2023-05-28.18:22:48::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:22:48::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-05-28.18:22:48::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-05-28.18:22:48::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2023-05-28.18:22:48::SCWMssOS::doing bsp build ... 
+TRACE::2023-05-28.18:22:48::SCWMssOS::System Command Ran  C: & cd  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2023-05-28.18:22:48::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2023-05-28.18:22:48::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2023-05-28.18:22:48::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2023-05-28.18:22:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2023-05-28.18:22:48::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-28.18:22:48::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-28.18:22:48::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:22:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2023-05-28.18:22:48::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-28.18:22:48::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-28.18:22:48::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:22:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-05-28.18:22:48::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-28.18:22:48::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-28.18:22:48::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:22:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2023-05-28.18:22:48::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-05-28.18:22:48::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2023-05-28.18:22:48::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:22:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2023-05-28.18:22:48::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-05-28.18:22:48::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2023-05-28.18:22:48::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:22:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_9/src"
+
+TRACE::2023-05-28.18:22:48::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2023-05-28.18:22:48::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2023-05-28.18:22:48::SCWMssOS::l -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:22:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-05-28.18:22:48::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2023-05-28.18:22:48::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2023-05-28.18:22:48::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:22:49::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2023-05-28.18:22:49::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-28.18:22:49::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-28.18:22:49::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:22:49::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2023-05-28.18:22:49::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-28.18:22:49::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-28.18:22:49::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:22:49::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-05-28.18:22:49::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-28.18:22:49::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-28.18:22:49::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:22:49::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2023-05-28.18:22:49::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2023-05-28.18:22:49::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2023-05-28.18:22:49::SCWMssOS::extra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:22:49::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2023-05-28.18:22:49::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2023-05-28.18:22:49::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2023-05-28.18:22:49::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:22:50::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_9/src"
+
+TRACE::2023-05-28.18:22:50::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2023-05-28.18:22:50::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2023-05-28.18:22:50::SCWMssOS::Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:22:50::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-05-28.18:22:50::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-05-28.18:22:50::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2023-05-28.18:22:50::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-28.18:22:54::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2023-05-28.18:22:54::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2023-05-28.18:22:54::SCWMssOS::make --no-print-directory archive
+
+TRACE::2023-05-28.18:22:54::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2023-05-28.18:22:54::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2023-05-28.18:22:54::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2023-05-28.18:22:54::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2023-05-28.18:22:54::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2023-05-28.18:22:54::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2023-05-28.18:22:54::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2023-05-28.18:22:54::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2023-05-28.18:22:54::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2023-05-28.18:22:54::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2023-05-28.18:22:54::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2023-05-28.18:22:54::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2023-05-28.18:22:54::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2023-05-28.18:22:54::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xgpio.o microblaze_0/lib/xgpio_extra.o microblaze_0/li
+TRACE::2023-05-28.18:22:54::SCWMssOS::b/xgpio_g.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xil
+TRACE::2023-05-28.18:22:54::SCWMssOS::_assert.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_me
+TRACE::2023-05-28.18:22:54::SCWMssOS::m.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/x
+TRACE::2023-05-28.18:22:54::SCWMssOS::il_testcache.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.
+TRACE::2023-05-28.18:22:54::SCWMssOS::o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microbla
+TRACE::2023-05-28.18:22:54::SCWMssOS::ze_0/lib/xintc_selftest.o microblaze_0/lib/xinterrupt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaz
+TRACE::2023-05-28.18:22:54::SCWMssOS::e_0/lib/xtmrctr.o microblaze_0/lib/xtmrctr_g.o microblaze_0/lib/xtmrctr_intr.o microblaze_0/lib/xtmrctr_l.o microblaze_0/lib/xt
+TRACE::2023-05-28.18:22:54::SCWMssOS::mrctr_options.o microblaze_0/lib/xtmrctr_selftest.o microblaze_0/lib/xtmrctr_sinit.o microblaze_0/lib/xtmrctr_stats.o microblaz
+TRACE::2023-05-28.18:22:54::SCWMssOS::e_0/lib/xuartlite.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_
+TRACE::2023-05-28.18:22:54::SCWMssOS::0/lib/xuartlite_selftest.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2023-05-28.18:22:55::SCWMssOS::'Finished building libraries'
+
+TRACE::2023-05-28.18:22:55::SCWMssOS::Copying to export directory.
+TRACE::2023-05-28.18:22:56::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-05-28.18:22:56::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-05-28.18:22:56::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2023-05-28.18:22:56::SCWSystem::Completed Processing the sysconfig mb_design_wrapper
+LOG::2023-05-28.18:22:56::SCWPlatform::Completed generating the artifacts for system configuration mb_design_wrapper
+TRACE::2023-05-28.18:22:56::SCWPlatform::Started preparing the platform 
+TRACE::2023-05-28.18:22:56::SCWSystem::Writing the bif file for system config mb_design_wrapper
+TRACE::2023-05-28.18:22:56::SCWSystem::dir created 
+TRACE::2023-05-28.18:22:56::SCWSystem::Writing the bif 
+TRACE::2023-05-28.18:22:56::SCWPlatform::Started writing the spfm file 
+TRACE::2023-05-28.18:22:56::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-05-28.18:22:56::SCWPlatform::Completed generating the platform
+TRACE::2023-05-28.18:22:56::SCWMssOS::Saving the mss changes C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:22:56::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-28.18:22:56::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-28.18:22:56::SCWMssOS::Commit changes completed.
+TRACE::2023-05-28.18:22:56::SCWPlatform::Trying to open the hw design at C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:22:56::SCWPlatform::DSA given C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:22:56::SCWPlatform::DSA absoulate path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:22:56::SCWPlatform::DSA directory C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw
+TRACE::2023-05-28.18:22:56::SCWPlatform:: Platform Path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:22:56::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2023-05-28.18:22:56::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_1
+TRACE::2023-05-28.18:22:56::SCWPlatform::Opened existing hwdb mb_design_wrapper_1
+TRACE::2023-05-28.18:22:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-28.18:22:56::SCWMssOS::Checking the sw design at  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:22:56::SCWMssOS::DEBUG:  swdes dump  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-28.18:22:56::SCWMssOS::Sw design exists and opened at  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:22:56::SCWWriter::formatted JSON is {
+	"platformName":	"mb_design_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_design_wrapper",
+	"platHandOff":	"C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCode/mb_design_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_design_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_design_wrapper",
+	"systems":	[{
+			"systemName":	"mb_design_wrapper",
+			"systemDesc":	"mb_design_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_design_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"a09e6b761cd6de147e2e2acbdaca03d1",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-05-28.18:22:56::SCWPlatform::updated the xpfm file.
+TRACE::2023-05-28.18:22:56::SCWPlatform::Trying to open the hw design at C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:22:56::SCWPlatform::DSA given C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:22:56::SCWPlatform::DSA absoulate path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:22:56::SCWPlatform::DSA directory C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw
+TRACE::2023-05-28.18:22:56::SCWPlatform:: Platform Path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/hw/mb_design_wrapper.xsa
+TRACE::2023-05-28.18:22:56::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2023-05-28.18:22:56::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_1
+TRACE::2023-05-28.18:22:56::SCWPlatform::Opened existing hwdb mb_design_wrapper_1
+TRACE::2023-05-28.18:22:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-28.18:22:56::SCWMssOS::Checking the sw design at  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-28.18:22:56::SCWMssOS::DEBUG:  swdes dump  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-28.18:22:56::SCWMssOS::Sw design exists and opened at  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss

@@ -42,7 +42,8 @@
       "axi_uartlite_0": "",
       "axi_timer_0": "",
       "fit_timer_0": "",
-      "EncHammingCode_Cop_0": ""
+      "EncHammingCode_Cop_0": "",
+      "DecHammingCode_0": ""
     },
     "interface_ports": {
       "dip_switches_16bits": {
@@ -182,7 +183,7 @@
             "value": "1"
           },
           "C_FSL_LINKS": {
-            "value": "1"
+            "value": "2"
           },
           "C_I_LMB": {
             "value": "1"
@@ -1414,9 +1415,21 @@
         "xci_name": "mb_design_EncHammingCode_Cop_0_0",
         "xci_path": "ip\\mb_design_EncHammingCode_Cop_0_0\\mb_design_EncHammingCode_Cop_0_0.xci",
         "inst_hier_path": "EncHammingCode_Cop_0"
+      },
+      "DecHammingCode_0": {
+        "vlnv": "xilinx.com:user:DecHammingCode:1.0",
+        "xci_name": "mb_design_DecHammingCode_0_0",
+        "xci_path": "ip\\mb_design_DecHammingCode_0_0\\mb_design_DecHammingCode_0_0.xci",
+        "inst_hier_path": "DecHammingCode_0"
       }
     },
     "interface_nets": {
+      "DecHammingCode_0_M00_AXIS": {
+        "interface_ports": [
+          "microblaze_0/S1_AXIS",
+          "DecHammingCode_0/M00_AXIS"
+        ]
+      },
       "EncHammingCode_Cop_0_M00_AXIS": {
         "interface_ports": [
           "EncHammingCode_Cop_0/M00_AXIS",
@@ -1463,6 +1476,12 @@
         "interface_ports": [
           "EncHammingCode_Cop_0/S00_AXIS",
           "microblaze_0/M0_AXIS"
+        ]
+      },
+      "microblaze_0_M1_AXIS": {
+        "interface_ports": [
+          "microblaze_0/M1_AXIS",
+          "DecHammingCode_0/S00_AXIS"
         ]
       },
       "microblaze_0_axi_dp": {
@@ -1606,7 +1625,9 @@
           "microblaze_0_axi_periph/M06_ACLK",
           "fit_timer_0/Clk",
           "EncHammingCode_Cop_0/s00_axis_aclk",
-          "EncHammingCode_Cop_0/m00_axis_aclk"
+          "EncHammingCode_Cop_0/m00_axis_aclk",
+          "DecHammingCode_0/m00_axis_aclk",
+          "DecHammingCode_0/s00_axis_aclk"
         ]
       },
       "microblaze_0_intr": {
@@ -1655,7 +1676,9 @@
           "axi_timer_0/s_axi_aresetn",
           "microblaze_0_axi_periph/M06_ARESETN",
           "EncHammingCode_Cop_0/s00_axis_aresetn",
-          "EncHammingCode_Cop_0/m00_axis_aresetn"
+          "EncHammingCode_Cop_0/m00_axis_aresetn",
+          "DecHammingCode_0/m00_axis_aresetn",
+          "DecHammingCode_0/s00_axis_aresetn"
         ]
       },
       "rst_clk_wiz_1_100M_peripheral_reset": {

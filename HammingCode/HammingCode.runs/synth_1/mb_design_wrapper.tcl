@@ -70,7 +70,6 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 2
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a100tcsg324-1
 
@@ -84,7 +83,10 @@ set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part digilentinc.com:nexys4:part0:1.1 [current_project]
-set_property ip_repo_paths c:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/ip_repo/EncHammingCode_Cop_1_0 [current_project]
+set_property ip_repo_paths {
+  c:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/ip_repo/DecHammingCode_1_0
+  c:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/ip_repo/EncHammingCode_Cop_1_0
+} [current_project]
 update_ip_catalog
 set_property ip_output_repo c:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCode/HammingCode.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]

@@ -69,6 +69,9 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb_design_f
 # IP: bd/mb_design/ip/mb_design_EncHammingCode_Cop_0_0/mb_design_EncHammingCode_Cop_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb_design_EncHammingCode_Cop_0_0 || ORIG_REF_NAME==mb_design_EncHammingCode_Cop_0_0} -quiet] -quiet
 
+# IP: bd/mb_design/ip/mb_design_DecHammingCode_0_0/mb_design_DecHammingCode_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb_design_DecHammingCode_0_0 || ORIG_REF_NAME==mb_design_DecHammingCode_0_0} -quiet] -quiet
+
 # XDC: c:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCode/HammingCode.gen/sources_1/bd/mb_design/ip/mb_design_microblaze_0_0/mb_design_microblaze_0_0.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_microblaze_0_0 || ORIG_REF_NAME==mb_design_microblaze_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 

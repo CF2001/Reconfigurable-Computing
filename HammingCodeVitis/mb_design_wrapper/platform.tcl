@@ -23,3 +23,12 @@ platform generate
 platform clean
 platform clean
 platform generate
+platform active {mb_design_wrapper}
+platform config -updatehw {C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCode/mb_design_wrapper.xsa}
+platform clean
+platform clean
+platform clean
+platform generate
+platform clean
+platform clean
+platform generate

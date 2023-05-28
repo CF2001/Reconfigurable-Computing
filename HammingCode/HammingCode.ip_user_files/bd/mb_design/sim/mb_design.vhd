@@ -1,7 +1,7 @@
 --Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
---Date        : Wed May 24 10:31:46 2023
+--Date        : Sun May 28 17:57:40 2023
 --Host        : LAPTOP-4HV6V7EN running 64-bit major release  (build 9200)
 --Command     : generate_target mb_design.bd
 --Design      : mb_design
@@ -2509,7 +2509,7 @@ entity mb_design is
     usb_uart_txd : out STD_LOGIC
   );
   attribute CORE_GENERATION_INFO : string;
-  attribute CORE_GENERATION_INFO of mb_design : entity is "mb_design,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=mb_design,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=30,numReposBlks=20,numNonXlnxBlks=0,numHierBlks=10,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=6,da_board_cnt=9,da_clkrst_cnt=3,da_mb_cnt=1,synth_mode=Global}";
+  attribute CORE_GENERATION_INFO of mb_design : entity is "mb_design,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=mb_design,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=31,numReposBlks=21,numNonXlnxBlks=0,numHierBlks=10,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=6,da_board_cnt=9,da_clkrst_cnt=5,da_mb_cnt=1,synth_mode=Global}";
   attribute HW_HANDOFF : string;
   attribute HW_HANDOFF of mb_design : entity is "mb_design.hwdef";
 end mb_design;
@@ -2573,10 +2573,18 @@ architecture STRUCTURE of mb_design is
     M0_AXIS_TDATA : out STD_LOGIC_VECTOR ( 31 downto 0 );
     M0_AXIS_TVALID : out STD_LOGIC;
     M0_AXIS_TREADY : in STD_LOGIC;
+    M1_AXIS_TLAST : out STD_LOGIC;
+    M1_AXIS_TDATA : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    M1_AXIS_TVALID : out STD_LOGIC;
+    M1_AXIS_TREADY : in STD_LOGIC;
     S0_AXIS_TLAST : in STD_LOGIC;
     S0_AXIS_TDATA : in STD_LOGIC_VECTOR ( 31 downto 0 );
     S0_AXIS_TVALID : in STD_LOGIC;
-    S0_AXIS_TREADY : out STD_LOGIC
+    S0_AXIS_TREADY : out STD_LOGIC;
+    S1_AXIS_TLAST : in STD_LOGIC;
+    S1_AXIS_TDATA : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    S1_AXIS_TVALID : in STD_LOGIC;
+    S1_AXIS_TREADY : out STD_LOGIC
   );
   end component mb_design_microblaze_0_0;
   component mb_design_microblaze_0_axi_intc_0 is
@@ -2835,6 +2843,28 @@ architecture STRUCTURE of mb_design is
     m00_axis_tready : in STD_LOGIC
   );
   end component mb_design_EncHammingCode_Cop_0_0;
+  component mb_design_DecHammingCode_0_0 is
+  port (
+    s00_axis_aclk : in STD_LOGIC;
+    s00_axis_aresetn : in STD_LOGIC;
+    s00_axis_tready : out STD_LOGIC;
+    s00_axis_tdata : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    s00_axis_tstrb : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    s00_axis_tlast : in STD_LOGIC;
+    s00_axis_tvalid : in STD_LOGIC;
+    m00_axis_aclk : in STD_LOGIC;
+    m00_axis_aresetn : in STD_LOGIC;
+    m00_axis_tvalid : out STD_LOGIC;
+    m00_axis_tdata : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    m00_axis_tstrb : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    m00_axis_tlast : out STD_LOGIC;
+    m00_axis_tready : in STD_LOGIC
+  );
+  end component mb_design_DecHammingCode_0_0;
+  signal DecHammingCode_0_M00_AXIS_TDATA : STD_LOGIC_VECTOR ( 31 downto 0 );
+  signal DecHammingCode_0_M00_AXIS_TLAST : STD_LOGIC;
+  signal DecHammingCode_0_M00_AXIS_TREADY : STD_LOGIC;
+  signal DecHammingCode_0_M00_AXIS_TVALID : STD_LOGIC;
   signal EncHammingCode_Cop_0_M00_AXIS_TDATA : STD_LOGIC_VECTOR ( 31 downto 0 );
   signal EncHammingCode_Cop_0_M00_AXIS_TLAST : STD_LOGIC;
   signal EncHammingCode_Cop_0_M00_AXIS_TREADY : STD_LOGIC;
@@ -2858,6 +2888,10 @@ architecture STRUCTURE of mb_design is
   signal microblaze_0_M0_AXIS_TLAST : STD_LOGIC;
   signal microblaze_0_M0_AXIS_TREADY : STD_LOGIC;
   signal microblaze_0_M0_AXIS_TVALID : STD_LOGIC;
+  signal microblaze_0_M1_AXIS_TDATA : STD_LOGIC_VECTOR ( 31 downto 0 );
+  signal microblaze_0_M1_AXIS_TLAST : STD_LOGIC;
+  signal microblaze_0_M1_AXIS_TREADY : STD_LOGIC;
+  signal microblaze_0_M1_AXIS_TVALID : STD_LOGIC;
   signal microblaze_0_axi_dp_ARADDR : STD_LOGIC_VECTOR ( 31 downto 0 );
   signal microblaze_0_axi_dp_ARPROT : STD_LOGIC_VECTOR ( 2 downto 0 );
   signal microblaze_0_axi_dp_ARREADY : STD_LOGIC_VECTOR ( 0 to 0 );
@@ -3034,6 +3068,7 @@ architecture STRUCTURE of mb_design is
   signal rst_clk_wiz_1_100M_peripheral_aresetn : STD_LOGIC_VECTOR ( 0 to 0 );
   signal rst_clk_wiz_1_100M_peripheral_reset : STD_LOGIC_VECTOR ( 0 to 0 );
   signal sys_clock_1 : STD_LOGIC;
+  signal NLW_DecHammingCode_0_m00_axis_tstrb_UNCONNECTED : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal NLW_EncHammingCode_Cop_0_m00_axis_tstrb_UNCONNECTED : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal NLW_axi_gpio_leds_ip2intc_irpt_UNCONNECTED : STD_LOGIC;
   signal NLW_axi_timer_0_generateout0_UNCONNECTED : STD_LOGIC;
@@ -3067,6 +3102,23 @@ begin
   seven_seg_led_an_tri_o(7 downto 0) <= axi_gpio_3_GPIO_TRI_O(7 downto 0);
   sys_clock_1 <= sys_clock;
   usb_uart_txd <= axi_uartlite_0_UART_TxD;
+DecHammingCode_0: component mb_design_DecHammingCode_0_0
+     port map (
+      m00_axis_aclk => microblaze_0_Clk,
+      m00_axis_aresetn => rst_clk_wiz_1_100M_peripheral_aresetn(0),
+      m00_axis_tdata(31 downto 0) => DecHammingCode_0_M00_AXIS_TDATA(31 downto 0),
+      m00_axis_tlast => DecHammingCode_0_M00_AXIS_TLAST,
+      m00_axis_tready => DecHammingCode_0_M00_AXIS_TREADY,
+      m00_axis_tstrb(3 downto 0) => NLW_DecHammingCode_0_m00_axis_tstrb_UNCONNECTED(3 downto 0),
+      m00_axis_tvalid => DecHammingCode_0_M00_AXIS_TVALID,
+      s00_axis_aclk => microblaze_0_Clk,
+      s00_axis_aresetn => rst_clk_wiz_1_100M_peripheral_aresetn(0),
+      s00_axis_tdata(31 downto 0) => microblaze_0_M1_AXIS_TDATA(31 downto 0),
+      s00_axis_tlast => microblaze_0_M1_AXIS_TLAST,
+      s00_axis_tready => microblaze_0_M1_AXIS_TREADY,
+      s00_axis_tstrb(3 downto 0) => B"1111",
+      s00_axis_tvalid => microblaze_0_M1_AXIS_TVALID
+    );
 EncHammingCode_Cop_0: component mb_design_EncHammingCode_Cop_0_0
      port map (
       m00_axis_aclk => microblaze_0_Clk,
@@ -3327,6 +3379,10 @@ microblaze_0: component mb_design_microblaze_0_0
       M0_AXIS_TLAST => microblaze_0_M0_AXIS_TLAST,
       M0_AXIS_TREADY => microblaze_0_M0_AXIS_TREADY,
       M0_AXIS_TVALID => microblaze_0_M0_AXIS_TVALID,
+      M1_AXIS_TDATA(31 downto 0) => microblaze_0_M1_AXIS_TDATA(31 downto 0),
+      M1_AXIS_TLAST => microblaze_0_M1_AXIS_TLAST,
+      M1_AXIS_TREADY => microblaze_0_M1_AXIS_TREADY,
+      M1_AXIS_TVALID => microblaze_0_M1_AXIS_TVALID,
       M_AXI_DP_ARADDR(31 downto 0) => microblaze_0_axi_dp_ARADDR(31 downto 0),
       M_AXI_DP_ARPROT(2 downto 0) => microblaze_0_axi_dp_ARPROT(2 downto 0),
       M_AXI_DP_ARREADY => microblaze_0_axi_dp_ARREADY(0),
@@ -3352,6 +3408,10 @@ microblaze_0: component mb_design_microblaze_0_0
       S0_AXIS_TLAST => EncHammingCode_Cop_0_M00_AXIS_TLAST,
       S0_AXIS_TREADY => EncHammingCode_Cop_0_M00_AXIS_TREADY,
       S0_AXIS_TVALID => EncHammingCode_Cop_0_M00_AXIS_TVALID,
+      S1_AXIS_TDATA(31 downto 0) => DecHammingCode_0_M00_AXIS_TDATA(31 downto 0),
+      S1_AXIS_TLAST => DecHammingCode_0_M00_AXIS_TLAST,
+      S1_AXIS_TREADY => DecHammingCode_0_M00_AXIS_TREADY,
+      S1_AXIS_TVALID => DecHammingCode_0_M00_AXIS_TVALID,
       Write_Strobe => microblaze_0_dlmb_1_WRITESTROBE
     );
 microblaze_0_axi_intc: component mb_design_microblaze_0_axi_intc_0

@@ -1,6 +1,38 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Sun May 28 17:56:56 2023
+| Host         : LAPTOP-4HV6V7EN running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_design_DecHammingCode_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of mb_design_DecHammingCode_0_0 (xilinx.com:user:DecHammingCode:1.0) from (Rev. 1) to (Rev. 2)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'mb_design_DecHammingCode_0_0'. These changes may impact your design.
+
+
+-Upgraded port order differs after port 's00_axis_aclk'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
 | Date         : Mon May 22 15:47:15 2023
 | Host         : LAPTOP-4HV6V7EN running 64-bit major release  (build 9200)
 | Command      : upgrade_ip

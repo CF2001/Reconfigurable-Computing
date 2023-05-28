@@ -132,7 +132,10 @@ OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
   set_property webtalk.parent_dir C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCode/HammingCode.cache/wt [current_project]
   set_property parent.project_path C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCode/HammingCode.xpr [current_project]
-  set_property ip_repo_paths C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/ip_repo/EncHammingCode_Cop_1_0 [current_project]
+  set_property ip_repo_paths {
+  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/ip_repo/DecHammingCode_1_0
+  C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/ip_repo/EncHammingCode_Cop_1_0
+} [current_project]
   update_ip_catalog
   set_property ip_output_repo C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCode/HammingCode.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]

@@ -10,7 +10,7 @@
 
 #define min(a, b)	((a < b) ? a : b)
 
-#define N	3
+#define N	1000
 
 int countSetBits(unsigned int n)
 {
@@ -201,8 +201,6 @@ void DecoderHammingCodeSW(int* pDst, int* pSrc, unsigned int size)
 				((countSetBits(*p & 0x00066666) & 1) << 1)  |
 				(countSetBits(*p & 0x00055555) & 1) ;
 
-			xil_printf("%d \n  ", c);
-
 			overallParity = (countSetBits(*p) & 1);
 
 			if (c == 0)
@@ -220,6 +218,67 @@ void DecoderHammingCodeSW(int* pDst, int* pSrc, unsigned int size)
 			}
 		}
 
+}
+
+void DecoderHammingCodeHw(int* pDst, int* pSrc, unsigned int size)
+{
+	int* p;
+
+	for (p = pSrc; p < pSrc + size; p++, pDst++)
+	{
+		//macros: *p - o valor a passar, 0 - o n mero da interface, FSL_DEFAULT - flags (by default)
+		putfslx(*p, 1, FSL_DEFAULT);
+		getfslx(*pDst, 1, FSL_DEFAULT);
+	}
+}
+
+bool CheckDecoderHammingCode(int* pData1, int* pData2, unsigned int size)
+{
+	int* p;
+	int *pDst;
+	int c;	// checker bit generator
+	int overallParity;
+	int decMsg;	// decoded message;
+
+
+	for (p = pData1; p < pData1 + size; p++, pData2++)
+	{
+		decMsg = 0;
+
+		decMsg |= ((*p >> 16) & 0b1111) << 11;
+		decMsg |= ((*p >> 8 ) & 0b1111111) << 4;
+		decMsg |= ((*p >> 4 ) & 0b111) << 1;
+		decMsg |= ((*p >> 2 ) & 0b1) << 0;
+
+		c = ((countSetBits(*p & 0x000F8000) & 1) << 4 ) |
+			((countSetBits(*p & 0x00007F80) & 1) << 3)  |
+			((countSetBits(*p & 0x00087878) & 1) << 2)  |
+			((countSetBits(*p & 0x00066666) & 1) << 1)  |
+			(countSetBits(*p & 0x00055555) & 1) ;
+
+		overallParity = (countSetBits(*p) & 1);
+
+		if (c == 0)
+		{
+			*pDst = decMsg;	// 00
+		}else{
+			if (overallParity == 1)
+			{
+				decMsg = correctionError(c, decMsg);
+				*pDst =  ((1 << 15) | decMsg);	// 01
+			}else // overallParity = 0
+			{
+				*pDst = ((2 << 15) | decMsg);	// 10
+			}
+		}
+
+		if (*pData2 != *pDst)
+		{
+			return FALSE;
+		}
+	}
+
+	return TRUE;
 }
 
 void PrintDataArray(int* pData, unsigned int size)
@@ -316,21 +375,31 @@ int main()
 
 	xil_printf("\n\rSoftware Only vs. Hardware Assisted Decoder Hamming Code \n\r");
 
-	// 11101100001001100110 - valido
-	// 11101101001001100110 - 1 erro  
-	// 11001101001001100110 - 2 erros
-	int testData[3] = {967270 , 967270 , 840294};
-	int finalData[N];
+	// 11101100001001100110 - valido	-- mensagem = 0000742D
+	// 10101100001001100110 - 1 erro    -- mensagem = 01 111010000101101
+	// 10101100001001100010 - 2 erros   -- mensagem = 10 101010000101100
+    //int testData[3] = {967270 , 705126 , 705122};
+    int finalData[N];
 
 	// Software only
 	RestartPerformanceTimer();
-	DecoderHammingCodeSW(finalData, testData, N);
+	DecoderHammingCodeSW(finalData, dstData, N);
 	timeElapsed = StopAndGetPerformanceTimer();
 	xil_printf("\n\rSoftware only decoder hamming code time: %d microseconds",
 			   timeElapsed / (XPAR_CPU_M_AXI_DP_FREQ_HZ / 1000000));
 	PrintDataArray(finalData, min(8, N));
-//	xil_printf("\n\rChecking result: %s\n\r",
-//			CheckEncoderHammingCode(srcData, dstData, N) ? "OK" : "Error");
+	xil_printf("\n\rChecking result: %s\n\r",
+			CheckDecoderHammingCode(dstData, finalData, N) ? "OK" : "Error");
+
+	// Hardware assisted
+	RestartPerformanceTimer();
+	DecoderHammingCodeHw(finalData, dstData, N);
+	timeElapsed = StopAndGetPerformanceTimer();
+	xil_printf("\n\rHardware assisted decoder hamming code time: %d microseconds",
+			   timeElapsed / (XPAR_CPU_M_AXI_DP_FREQ_HZ / 1000000));
+	PrintDataArray(finalData, min(8, N));
+	xil_printf("\n\rChecking result: %s\n\r",
+			CheckDecoderHammingCode(dstData, finalData, N) ? "OK" : "Error");
 
 
     cleanup_platform();

@@ -41,6 +41,8 @@ architecture Behavioral of hamming_encoder is
 begin
 
 -- PARITY BIT GENERATOR
+
+
 p0 <= m(0) xor m(1) xor m(3) xor m(4) xor m(6) xor m(8) xor m(10) xor m(11) xor m(13);
 p1 <= m(0) xor m(2) xor m(3) xor m(5) xor m(6) xor m(9) xor m(10) xor m(12) xor m(13);
 p3 <= m(1) xor m(2) xor m(3) xor m(7) xor m(8) xor m(9) xor m(10) xor m(14);

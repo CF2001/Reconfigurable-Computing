@@ -42,8 +42,9 @@ begin
    begin
          message <= "110110111010001";
         wait for 10 ns;
-         message <= "110110111010001";
+         message <= "010101110000011";
         wait for 10 ns;
+         message <= "011110000110101";
    end process;
     
 end Behavioral;

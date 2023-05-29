@@ -1,6 +1,6 @@
 Vivado Simulator v2022.2
 Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ErrorDetectionCorrection_behav xil_defaultlib.ErrorDetectionCorrection -log elaborate.log 
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot hamming_decoder_tb_behav xil_defaultlib.hamming_decoder_tb -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -10,7 +10,6 @@ Time Resolution for simulation is 1ps
 Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
-Compiling architecture behavioral of entity xil_defaultlib.hamming_encoder [hamming_encoder_default]
 Compiling architecture behavioral of entity xil_defaultlib.hamming_decoder [hamming_decoder_default]
-Compiling architecture behavioral of entity xil_defaultlib.errordetectioncorrection
-Built simulation snapshot ErrorDetectionCorrection_behav
+Compiling architecture behavioral of entity xil_defaultlib.hamming_decoder_tb
+Built simulation snapshot hamming_decoder_tb_behav

@@ -2,10 +2,10 @@
 # Vivado v2022.2 (64-bit)
 # SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
 # IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
-# Start of session at: Sat May 27 21:03:53 2023
-# Process ID: 24368
+# Start of session at: Mon May 29 17:04:04 2023
+# Process ID: 11072
 # Current directory: C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/hamming_code
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9956 C:\Users\35191\Documents\UA\4_Ano\2_Semestre\CR\projectCR\hamming_code\hamming_code.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2344 C:\Users\35191\Documents\UA\4_Ano\2_Semestre\CR\projectCR\hamming_code\hamming_code.xpr
 # Log file: C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/hamming_code/vivado.log
 # Journal file: C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/hamming_code\vivado.jou
 # Running On: LAPTOP-4HV6V7EN, OS: Windows, CPU Frequency: 1992 MHz, CPU Physical cores: 4, Host memory: 16992 MB
@@ -83,14 +83,76 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
-open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:13 . Memory (MB): peak = 1133.582 ; gain = 318.203
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1237.855 ; gain = 440.758
 update_compile_order -fileset sources_1
-reset_run synth_1
-INFO: [Project 1-1161] Replacing file C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/hamming_code/hamming_code.srcs/utils_1/imports/synth_1/hamming_encoder.dcp with file C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/hamming_code/hamming_code.runs/synth_1/hamming_decoder.dcp
-launch_runs impl_1 -jobs 4
-[Sat May 27 21:06:13 2023] Launched synth_1...
-Run output will be captured here: C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/hamming_code/hamming_code.runs/synth_1/runme.log
-[Sat May 27 21:06:14 2023] Launched impl_1...
-Run output will be captured here: C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/hamming_code/hamming_code.runs/impl_1/runme.log
+set_property top hamming_decoder_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+reset_run impl_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'hamming_decoder_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/hamming_code/hamming_code.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'hamming_decoder_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/hamming_code/hamming_code.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj hamming_decoder_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/hamming_code/hamming_code.srcs/sim_1/new/hamming_decoder_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hamming_decoder_tb'
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1241.133 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '7' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/hamming_code/hamming_code.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot hamming_decoder_tb_behav xil_defaultlib.hamming_decoder_tb -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot hamming_decoder_tb_behav xil_defaultlib.hamming_decoder_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.hamming_decoder [hamming_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.hamming_decoder_tb
+Built simulation snapshot hamming_decoder_tb_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1241.133 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/hamming_code/hamming_code.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "hamming_decoder_tb_behav -key {Behavioral:sim_1:Functional:hamming_decoder_tb} -tclbatch {hamming_decoder_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source hamming_decoder_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 1241.133 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'hamming_decoder_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 1241.133 ; gain = 0.000
+export_ip_user_files -of_objects  [get_files C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/hamming_code/hamming_code.srcs/sim_1/new/ErrorDetectionCorrection.vhd] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/hamming_code/hamming_code.srcs/sim_1/new/ErrorDetectionCorrection.vhd
+remove_files  -fileset sim_1 C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/hamming_code/hamming_code.srcs/sim_1/new/ErrorDetectionCorrection.vhd
+WARNING: [Vivado 12-818] No files matched 'C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/hamming_code/hamming_code.srcs/sim_1/new/ErrorDetectionCorrection.vhd'
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
 exit
-INFO: [Common 17-206] Exiting Vivado at Sat May 27 21:13:21 2023...
+INFO: [Common 17-206] Exiting Vivado at Mon May 29 18:29:54 2023...

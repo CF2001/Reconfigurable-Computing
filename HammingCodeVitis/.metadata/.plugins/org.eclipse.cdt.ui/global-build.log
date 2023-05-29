@@ -1,17 +1,17 @@
 Nothing to build in platform 'mb_design_wrapper'
 
-19:08:15 **** Incremental Build of configuration Debug for project HammingCodeApp ****
+18:25:41 **** Incremental Build of configuration Debug for project HammingCodeApp ****
 make all 
 'Building file: ../src/ErrorDetectionCorrection.c'
 'Invoking: MicroBlaze gcc compiler'
 mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ErrorDetectionCorrection.o" -IC:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/HammingCodeVitis/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/ErrorDetectionCorrection.d" -MT"src/ErrorDetectionCorrection.o" -o "src/ErrorDetectionCorrection.o" "../src/ErrorDetectionCorrection.c"
 ../src/ErrorDetectionCorrection.c: In function 'CheckEncoderHammingCode':
-../src/ErrorDetectionCorrection.c:146:23: warning: 'pDst' may be used uninitialized [-Wmaybe-uninitialized]
-  146 |                 *pDst = 0;
+../src/ErrorDetectionCorrection.c:156:23: warning: 'pDst' may be used uninitialized [-Wmaybe-uninitialized]
+  156 |                 *pDst = 0;
       |                 ~~~~~~^~~
 ../src/ErrorDetectionCorrection.c: In function 'CheckDecoderHammingCode':
-../src/ErrorDetectionCorrection.c:263:31: warning: 'pDst' may be used uninitialized [-Wmaybe-uninitialized]
-  263 |                         *pDst = decMsg; // 00
+../src/ErrorDetectionCorrection.c:275:31: warning: 'pDst' may be used uninitialized [-Wmaybe-uninitialized]
+  275 |                         *pDst = decMsg; // 00
       |                         ~~~~~~^~~~~~~~
 'Finished building: ../src/ErrorDetectionCorrection.c'
 ' '
@@ -23,6 +23,6 @@ mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/35191/Documents/UA/4_Ano/2_Semest
 'Invoking: MicroBlaze Print Size'
 mb-size HammingCodeApp.elf  |tee "HammingCodeApp.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  19176	   1392	  34912	  55480	   d8b8	HammingCodeApp.elf
+  19264	   1392	  34912	  55568	   d910	HammingCodeApp.elf
 'Finished building: HammingCodeApp.elf.size'
 ' '

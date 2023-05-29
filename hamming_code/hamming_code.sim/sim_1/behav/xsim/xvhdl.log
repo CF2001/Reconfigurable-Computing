@@ -1,2 +1,2 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/hamming_code/hamming_code.srcs/sim_1/new/ErrorDetectionCorrection.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'ErrorDetectionCorrection'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/35191/Documents/UA/4_Ano/2_Semestre/CR/projectCR/hamming_code/hamming_code.srcs/sim_1/new/hamming_decoder_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hamming_decoder_tb'

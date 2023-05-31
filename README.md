@@ -8,7 +8,8 @@ Project implemented with VHDL and C languages.
 <br>
 <br>
 
-![image](https://github.com/CF2001/Reconfigurable-Computing/assets/84447852/2c166e54-68fe-4a1a-aa62-f279a3ba0a8e)
+![Captura de ecrã 2023-05-31 211317](https://github.com/CF2001/Reconfigurable-Computing/assets/84447852/18b9fa6b-ae92-4fc1-8a94-1fba3a173463)
+
 
 <br>
 

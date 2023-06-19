@@ -15,4 +15,4 @@ Project implemented with VHDL and C languages.
 
 Project developed with [Carlos Costa](https://github.com/carlosrjpcosta).
 
-#### Grade: 17,5
+#### Grade: 17,5/20
